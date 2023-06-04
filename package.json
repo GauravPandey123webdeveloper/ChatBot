@@ -1,0 +1,11 @@
+{
+  "name": "my-personal-chat-bot",
+  "version": "1.0.0",
+  "description": "this is the chat bot where multiple user can chat together",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Gaurav Pandey",
+  "license": "ISC"
+}
