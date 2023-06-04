@@ -1,11 +1,23 @@
 {
-  "name": "my-personal-chat-bot",
+  "name": "chatcord",
   "version": "1.0.0",
-  "description": "this is the chat bot where multiple user can chat together",
-  "main": "index.js",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "node server",
+    "dev": "nodemon server"
   },
-  "author": "Gaurav Pandey",
-  "license": "ISC"
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "dependencies": {
+    "@socket.io/redis-adapter": "^7.1.0",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "redis": "^3.1.2",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
